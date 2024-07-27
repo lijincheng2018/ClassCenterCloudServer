@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ClassCenterJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/career-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/classcenter-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/classcenter-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/classcenter-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/classfee-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/document-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/exam-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/memorandum-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/message-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notice-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/random-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/say-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sutuo-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vote-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: document-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: YOUR_NACOS_SERVER_IP:8848
+      config:
+        file-extension: yaml
+        shared-configs:
+          - dataId: shared_jdbc.yaml
+          - dataId: shared_servlet.yaml

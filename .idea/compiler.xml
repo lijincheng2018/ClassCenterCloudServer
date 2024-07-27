@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="notice-service" />
+        <module name="career-service" />
+        <module name="user-service" />
+        <module name="classfee-service" />
+        <module name="message-service" />
+        <module name="document-service" />
+        <module name="classcenter-api" />
+        <module name="say-service" />
+        <module name="classcenter-gateway" />
+        <module name="sutuo-service" />
+        <module name="vote-service" />
+        <module name="task-service" />
+        <module name="classcenter-common" />
+        <module name="memorandum-service" />
+        <module name="exam-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ClassCenterJava" target="17" />
+      <module name="random-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ClassCenter" options="" />
+      <module name="ClassCenterJava" options="-parameters" />
+      <module name="career-service" options="-parameters" />
+      <module name="classcenter-api" options="-parameters" />
+      <module name="classcenter-common" options="-parameters" />
+      <module name="classcenter-gateway" options="-parameters" />
+      <module name="classfee-service" options="-parameters" />
+      <module name="document-service" options="-parameters" />
+      <module name="exam-service" options="-parameters" />
+      <module name="memorandum-service" options="-parameters" />
+      <module name="message-service" options="-parameters" />
+      <module name="notice-service" options="-parameters" />
+      <module name="random-service" options="-parameters" />
+      <module name="say-service" options="-parameters" />
+      <module name="sutuo-service" options="-parameters" />
+      <module name="task-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="vote-service" options="-parameters" />
+    </option>
+  </component>
+</project>

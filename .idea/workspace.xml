@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9986bef0-13d3-4c43-a598-aa96331ba8f0" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc/storage_v2/_src_/schema/classcenter_vote.HOhWtg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/CareerServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/controller/CareerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/domain/entity/CareerPlanningList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/domain/entity/CareerReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/repository/CareerPlanningListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/repository/CareerReportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/service/CareerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/java/cn/ljcljc/career/service/Impl/CareerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/CareerServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/controller/CareerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/domain/entity/CareerPlanningList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/domain/entity/CareerReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/repository/CareerPlanningListRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/repository/CareerReportRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/service/CareerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/career-service/target/classes/cn/ljcljc/career/service/Impl/CareerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MemorandumClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MessageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/NoticeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/SayClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/TaskClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/MemorandumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/MessagesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/NoticeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/QueueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/SayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/UserCenterTaskFinishRateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/MemorandumClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/MessageClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/NoticeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/QueueClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/SayClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/TaskClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/MemorandumDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/MessagesDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/NoticeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/QueueDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/SayDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/UserCenterTaskFinishRateDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/domain/pojo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/interceptors/UserInfoInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/utils/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/utils/ClassCenterUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/java/cn/ljcljc/common/utils/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/domain/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/domain/pojo/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/interceptors/UserInfoInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/utils/Assert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/utils/ClassCenterUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/utils/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-common/target/classes/cn/ljcljc/common/utils/UserContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/java/cn/ljcljc/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/java/cn/ljcljc/gateway/config/AuthProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/java/cn/ljcljc/gateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/java/cn/ljcljc/gateway/config/SaTokenConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/java/cn/ljcljc/gateway/filiters/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/java/cn/ljcljc/gateway/filiters/CorsWebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/AuthProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/SaTokenConfigure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/filiters/AuthGlobalFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/filiters/CorsWebFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/ClassFeeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/controller/FeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/controller/QueueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/domain/dto/FeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/domain/dto/QueueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/domain/entity/Fee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/domain/entity/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/domain/entity/SystemInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/domain/vo/FeeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/repository/FeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/repository/QueueRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/repository/SystemInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/service/FeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/service/Impl/FeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/service/Impl/QueueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/service/QueueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/ClassFeeServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/controller/FeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/controller/QueueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/domain/dto/FeeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/domain/dto/QueueDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/domain/entity/Fee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/domain/entity/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/domain/entity/SystemInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/domain/vo/FeeVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/repository/FeeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/repository/QueueRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/repository/SystemInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/service/FeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/service/Impl/FeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/service/Impl/QueueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classfee-service/target/classes/cn/ljcljc/classfee/service/QueueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/DocumentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/controller/DocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/controller/PersonalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/dto/ClassDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/dto/DocDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/dto/PersonalDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/entity/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/entity/Doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/entity/Personal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/vo/ClassVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/vo/DocVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/domain/vo/PersonalVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/repository/ClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/repository/DocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/repository/PersonalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/service/DocService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/service/Impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/service/Impl/DocServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/service/Impl/PersonalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/service/PersonalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/DocumentServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/controller/ClassController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/controller/DocController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/controller/PersonalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/dto/ClassDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/dto/DocDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/dto/PersonalDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/entity/Clazz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/entity/Doc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/entity/Personal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/vo/ClassVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/vo/DocVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/domain/vo/PersonalVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/repository/ClassRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/repository/DocRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/repository/PersonalRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/service/ClassService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/service/DocService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/service/Impl/ClassServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/service/Impl/DocServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/service/Impl/PersonalServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/target/classes/cn/ljcljc/document/service/PersonalService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/ExamServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/controller/ExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/domain/entity/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/domain/entity/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/domain/entity/StuRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/domain/entity/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/domain/vo/ScoreReportVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/repository/ExamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/repository/ScoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/repository/StuRankRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/repository/SubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/service/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/service/Impl/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/ExamServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/controller/ExamController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/domain/entity/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/domain/entity/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/domain/entity/StuRank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/domain/entity/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/domain/vo/ScoreReportVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/repository/ExamRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/repository/ScoreRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/repository/StuRankRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/repository/SubjectRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/service/ExamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/target/classes/cn/ljcljc/exam/service/Impl/ExamServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/MemorandumServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/controller/MemorandumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/domain/entity/Memorandum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/repository/MemorandumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/service/Impl/MemorandumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/java/cn/ljcljc/memorandum/service/MemorandumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/MemorandumServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/controller/MemorandumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/domain/entity/Memorandum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/repository/MemorandumRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/service/Impl/MemorandumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memorandum-service/target/classes/cn/ljcljc/memorandum/service/MemorandumService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/MessageServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/domain/entity/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/domain/entity/SysInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/repository/MessagesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/repository/SysInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/service/Impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/java/cn/ljcljc/message/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/MessageServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/controller/MessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/domain/entity/Messages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/domain/entity/SysInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/repository/MessagesRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/repository/SysInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/service/Impl/MessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-service/target/classes/cn/ljcljc/message/service/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/NoticeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/domain/dto/NoticeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/domain/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/domain/vo/NoticeAdminVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/repository/NoticeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/service/Impl/NoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/java/cn/ljcljc/notice/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/NoticeServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/controller/NoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/domain/dto/NoticeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/domain/entity/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/domain/vo/NoticeAdminVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/repository/NoticeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/service/Impl/NoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notice-service/target/classes/cn/ljcljc/notice/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/SayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/controller/SayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/domain/dto/SayDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/domain/entity/Say.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/repository/SayRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/service/Impl/SayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/java/cn/ljcljc/say/service/SayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/SayServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/controller/SayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/domain/dto/SayDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/domain/entity/Say.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/repository/SayRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/service/Impl/SayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-service/target/classes/cn/ljcljc/say/service/SayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/SutuoServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/controller/CompetitionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/dto/CompetitionPredictDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionArt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionGroupHonor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionKaoheClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionKaoheLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionPersonalHonor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionScoreResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionScoreTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/CompetitionYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionArtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionGroupHonorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionKaoheClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionKaoheLevelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionLevelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionOtherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionPersonalHonorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionRankRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionRecordsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionScoreResultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionScoreTableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/repository/CompetitionYearRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/service/CompetitionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/service/Impl/CompetitionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/SutuoServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/controller/CompetitionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/dto/CompetitionPredictDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionArt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionGroupHonor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionKaoheClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionKaoheLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionOther.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionPersonalHonor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionRank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionRecords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionScoreResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionScoreTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/CompetitionYear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/domain/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionArtRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionClassRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionGroupHonorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionKaoheClassRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionKaoheLevelRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionLevelRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionListRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionOtherRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionPersonalHonorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionRankRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionRecordsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionScoreResultRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionScoreTableRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionTypeRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/repository/CompetitionYearRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/service/CompetitionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sutuo-service/target/classes/cn/ljcljc/sutuo/service/Impl/CompetitionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/TaskServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/controller/CollectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/dto/CollectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/dto/RegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/entity/CollectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/entity/CollectList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/entity/RegisterData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/entity/RegisterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/entity/TaskTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/vo/CollectListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/vo/TaskResponseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/vo/TaskVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/domain/vo/UserCenterTaskFinishRateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/repository/CollectDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/repository/CollectListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/repository/RegisterDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/repository/RegisterListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/repository/TaskTableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/service/CollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/service/Impl/CollectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/service/Impl/RegisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/service/Impl/TaskTableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/service/TaskTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/utils/COSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/utils/ConstantCosUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/TaskServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/controller/CollectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/dto/CollectDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/dto/RegisterDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/entity/CollectData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/entity/CollectList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/entity/RegisterData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/entity/RegisterList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/entity/TaskTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/vo/CollectListVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/vo/TaskResponseVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/vo/TaskVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/domain/vo/UserCenterTaskFinishRateVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/repository/CollectDataRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/repository/CollectListRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/repository/RegisterDataRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/repository/RegisterListRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/repository/TaskTableRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/service/CollectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/service/Impl/CollectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/service/Impl/RegisterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/service/Impl/TaskTableServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/service/RegisterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/service/TaskTableService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/utils/COSUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-service/target/classes/cn/ljcljc/task/utils/ConstantCosUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/controller/QQLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/controller/UserAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/controller/WeChatLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/entity/AllUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/entity/ClassroomInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/entity/WeChatMPQrLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/vo/AdminHomeDataVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/vo/UserCenterTaskFinishRateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/vo/UserDataVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/domain/vo/UserHomeDataVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/repository/AllUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/repository/ClassroomInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/repository/WeChatMPQrLoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/service/Impl/UserAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/service/Impl/WeChatLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/service/UserAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/service/WeChatLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/UserServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/controller/QQLoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/controller/UserAuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/controller/WeChatLoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/dto/LoginDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/entity/AllUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/entity/ClassroomInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/entity/WeChatMPQrLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/AdminHomeDataVO$Ly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/AdminHomeDataVO$Sh.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/AdminHomeDataVO$Ty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/AdminHomeDataVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/UserCenterTaskFinishRateVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/UserDataVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/domain/vo/UserHomeDataVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/repository/AllUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/repository/ClassroomInfoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/repository/WeChatMPQrLoginRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/service/Impl/UserAuthServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/service/Impl/WeChatLoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/service/UserAuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/target/classes/cn/ljcljc/user/service/WeChatLoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/VoteServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/controller/VoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/dto/VoteDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/entity/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/entity/VoteData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/vo/VoteDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/vo/VoteListAdminVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/vo/VoteListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/domain/vo/VoteResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/repository/VoteDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/repository/VoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/service/Impl/VoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/java/cn/ljcljc/vote/service/VoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/VoteServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/controller/VoteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/dto/VoteDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/entity/Vote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/entity/VoteData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/vo/VoteDetailVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/vo/VoteListAdminVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/vo/VoteListVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/domain/vo/VoteResultVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/repository/VoteDataRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/repository/VoteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/service/Impl/VoteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vote-service/target/classes/cn/ljcljc/vote/service/VoteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\MAVENA\apache-maven-3.9.8-bin\apache-maven-3.9.8" />
+        <option name="userSettingsFile" value="D:\MAVENA\apache-maven-3.9.8-bin\apache-maven-3.9.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2jdaaOkaJcdTU6Cx33uGad71DjH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ClassCenter [clean].executor": "Run",
+    "Maven.ClassCenter [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CareerServiceApplication.executor": "Run",
+    "Spring Boot.ClassCenterJavaApplication.executor": "Run",
+    "Spring Boot.ClassFeeServiceApplication.executor": "Run",
+    "Spring Boot.DocumentServiceApplication.executor": "Run",
+    "Spring Boot.ExamServiceApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.MemorandumServiceApplication.executor": "Run",
+    "Spring Boot.MessageServiceApplication.executor": "Run",
+    "Spring Boot.NoticeServiceApplication.executor": "Run",
+    "Spring Boot.SayServiceApplication.executor": "Run",
+    "Spring Boot.SutuoServiceApplication.executor": "Run",
+    "Spring Boot.TaskServiceApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
+    "Spring Boot.VoteServiceApplication.executor": "Run",
+    "StatusDashboardGroupingRule": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/JavaProjects/ClassCenter/memorandum-service/src/main/java/cn/ljcljc",
+    "last_opened_file_path": "D:/JavaProjects/ClassCenter/vote-service/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\ClassCenter\vote-service\src\main\resources" />
+      <recent name="D:\JavaProjects\ClassCenter\task-service\src\main\resources" />
+      <recent name="D:\JavaProjects\ClassCenter\sutuo-service\src\main\resources" />
+      <recent name="D:\JavaProjects\ClassCenter\say-service\src\main\resources" />
+      <recent name="D:\JavaProjects\ClassCenter\notice-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\ClassCenter\sutuo-service\src\main\java\cn\ljcljc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ljcljc.vote.config" />
+      <recent name="cn.ljcljc.gateway.config" />
+      <recent name="cn.ljcljc.user.config" />
+      <recent name="cn.ljcljc.career.service.Impl" />
+      <recent name="cn.ljcljc.career.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="CareerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8082" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="career-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.career.CareerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassFeeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8084" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="classfee-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.classfee.ClassFeeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8085" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="document-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.document.DocumentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8083" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="exam-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.exam.ExamServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8081" />
+        </param>
+      </additionalParameters>
+      <module name="classcenter-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemorandumServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8086" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="memorandum-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.memorandum.MemorandumServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8087" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="message-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.message.MessageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoticeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8088" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="notice-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.notice.NoticeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8089" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="say-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.say.SayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SutuoServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8091" />
+        </param>
+      </additionalParameters>
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="sutuo-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.sutuo.SutuoServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev,ljc" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8090" />
+        </param>
+      </additionalParameters>
+      <module name="task-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.task.TaskServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8092" />
+        </param>
+      </additionalParameters>
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoteServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="8093" />
+        </param>
+      </additionalParameters>
+      <module name="vote-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljcljc.vote.VoteServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CareerServiceApplication" />
+      <item itemvalue="Spring Boot.ExamServiceApplication" />
+      <item itemvalue="Spring Boot.ClassFeeServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.DocumentServiceApplication" />
+      <item itemvalue="Spring Boot.MemorandumServiceApplication" />
+      <item itemvalue="Spring Boot.MessageServiceApplication" />
+      <item itemvalue="Spring Boot.NoticeServiceApplication" />
+      <item itemvalue="Spring Boot.SayServiceApplication" />
+      <item itemvalue="Spring Boot.TaskServiceApplication" />
+      <item itemvalue="Spring Boot.SutuoServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.VoteServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DocumentServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9986bef0-13d3-4c43-a598-aa96331ba8f0" name="更改" comment="" />
+      <created>1721719471151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721719471151</updated>
+      <workItem from="1721719472436" duration="607000" />
+      <workItem from="1721783599032" duration="8351000" />
+      <workItem from="1721955821783" duration="12851000" />
+      <workItem from="1721969991066" duration="15558000" />
+      <workItem from="1721992933509" duration="2752000" />
+      <workItem from="1722063642081" duration="10821000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1722074079910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722074079910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+/.idea/
+/career-service/src/main/resources/application.yml
+/classfee-service/src/main/resources/application.yml
+/document-service/src/main/resources/application.yml
+/exam-service/src/main/resources/application.yml
+/memorandum-service/src/main/resources/application.yml
+/message-service/src/main/resources/application.yml
+/notice-service/src/main/resources/application.yml
+/say-service/src/main/resources/application.yml
+/sutuo-service/src/main/resources/application.yml
+/task-service/src/main/resources/application.yml
+/user-service/src/main/resources/application.yml
+/vote-service/src/main/resources/application.yml

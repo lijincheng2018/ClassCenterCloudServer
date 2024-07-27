@@ -10,3 +10,15 @@
 /task-service/src/main/resources/application.yml
 /user-service/src/main/resources/application.yml
 /vote-service/src/main/resources/application.yml
+/sutuo-service/target/
+/career-service/target/
+/classfee-service/target/
+/document-service/target/
+/exam-service/target/
+/memorandum-service/target/
+/message-service/target/
+/notice-service/target/
+/say-service/target/
+/task-service/target/
+/user-service/target/
+/vote-service/target/

@@ -4,8 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9986bef0-13d3-4c43-a598-aa96331ba8f0" name="更改" comment="init">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9986bef0-13d3-4c43-a598-aa96331ba8f0" name="更改" comment="删除无需管理的文件">
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/MemorandumClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/MessageClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/NoticeClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/QueueClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/SayClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/TaskClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/UserClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/config/DefaultFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/career-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MemorandumClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MemorandumClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MessageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MessageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/NoticeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/NoticeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/QueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/QueueClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/SayClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/SayClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/TaskClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/TaskClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/filiters/AuthGlobalFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/filiters/AuthGlobalFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classfee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classfee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/ClassFeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/ClassFeeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classfee-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/classfee-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memorandum-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/memorandum-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memorandum-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/memorandum-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/message-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notice-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/notice-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/say-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/say-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/say-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/say-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sutuo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sutuo-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sutuo-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sutuo-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vote-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vote-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vote-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vote-service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,55 +92,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ClassCenter [clean].executor": "Run",
-    "Maven.ClassCenter [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CareerServiceApplication.executor": "Run",
-    "Spring Boot.ClassCenterJavaApplication.executor": "Run",
-    "Spring Boot.ClassFeeServiceApplication.executor": "Run",
-    "Spring Boot.DocumentServiceApplication.executor": "Run",
-    "Spring Boot.ExamServiceApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.MemorandumServiceApplication.executor": "Run",
-    "Spring Boot.MessageServiceApplication.executor": "Run",
-    "Spring Boot.NoticeServiceApplication.executor": "Run",
-    "Spring Boot.SayServiceApplication.executor": "Run",
-    "Spring Boot.SutuoServiceApplication.executor": "Run",
-    "Spring Boot.TaskServiceApplication.executor": "Run",
-    "Spring Boot.UserServiceApplication.executor": "Run",
-    "Spring Boot.VoteServiceApplication.executor": "Run",
-    "StatusDashboardGroupingRule": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/JavaProjects/ClassCenter/memorandum-service/src/main/java/cn/ljcljc",
-    "last_opened_file_path": "D:/JavaProjects/ClassCenter/vote-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.ClassCenter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ClassCenter [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CareerServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ClassCenterJavaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ClassFeeServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DocumentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ExamServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MemorandumServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MessageServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NoticeServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SayServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SutuoServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TaskServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.VoteServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;StatusDashboardGroupingRule&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/JavaProjects/ClassCenter/memorandum-service/src/main/java/cn/ljcljc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProjects/ClassCenter/vote-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\ClassCenter\vote-service\src\main\resources" />
@@ -378,7 +424,9 @@
       <workItem from="1721955821783" duration="12851000" />
       <workItem from="1721969991066" duration="15558000" />
       <workItem from="1721992933509" duration="2752000" />
-      <workItem from="1722063642081" duration="10951000" />
+      <workItem from="1722063642081" duration="11289000" />
+      <workItem from="1722214946593" duration="1054000" />
+      <workItem from="1722216130021" duration="7021000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -396,7 +444,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722074577494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1722074645328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722074645328</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删除无需管理的文件">
+      <option name="closed" value="true" />
+      <created>1722074889996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722074889996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,6 +479,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="删除无需管理的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除无需管理的文件" />
   </component>
 </project>

@@ -4,6 +4,10 @@ spring:
   profiles:
     active: dev
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8190
+      http-method-specify: true # 开启请求方式前缀
     nacos:
       server-addr: YOUR_NACOS_SERVER_IP:8848
       config:

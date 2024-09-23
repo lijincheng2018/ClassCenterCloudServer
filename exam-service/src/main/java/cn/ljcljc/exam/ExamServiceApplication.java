@@ -9,3 +9,5 @@ public class ExamServiceApplication {
         SpringApplication.run(ExamServiceApplication.class, args);
     }
 }
+
+// 远程调用  OpenFeign

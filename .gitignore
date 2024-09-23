@@ -22,3 +22,5 @@
 /task-service/target/
 /user-service/target/
 /vote-service/target/
+/classcenter-gateway/target/
+/classcenter-api/target/

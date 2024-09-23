@@ -4,53 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9986bef0-13d3-4c43-a598-aa96331ba8f0" name="更改" comment="删除无需管理的文件">
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/MemorandumClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/MessageClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/NoticeClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/QueueClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/SayClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/TaskClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/fallback/UserClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/config/DefaultFeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7962609c-e75d-4c68-af44-465beb259cbc.xml" afterDir="false" />
+    <list default="true" id="9986bef0-13d3-4c43-a598-aa96331ba8f0" name="更改" comment="增加Sentinal的支持">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/career-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/career-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MemorandumClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MemorandumClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MessageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/MessageClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/NoticeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/NoticeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/QueueClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/QueueClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/SayClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/SayClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/TaskClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/TaskClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/src/main/java/cn/ljcljc/api/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/config/CorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/filiters/AuthGlobalFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-gateway/target/classes/cn/ljcljc/gateway/filiters/AuthGlobalFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classfee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/classfee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/ClassFeeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/classfee-service/src/main/java/cn/ljcljc/classfee/ClassFeeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classfee-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/classfee-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorandum-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/memorandum-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memorandum-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/memorandum-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/message-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notice-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/notice-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/say-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/say-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/say-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/say-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sutuo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sutuo-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sutuo-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sutuo-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vote-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vote-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/MemorandumClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/MemorandumClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/MessageClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/MessageClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/NoticeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/NoticeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/QueueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/QueueClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/SayClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/SayClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/TaskClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/TaskClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/classcenter-api/target/classes/cn/ljcljc/api/client/UserClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/DocumentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/cn/ljcljc/document/DocumentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/ExamServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/src/main/java/cn/ljcljc/exam/ExamServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/SutuoServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sutuo-service/src/main/java/cn/ljcljc/sutuo/SutuoServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/cn/ljcljc/task/TaskServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/ljcljc/user/UserServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +393,12 @@
       <workItem from="1721992933509" duration="2752000" />
       <workItem from="1722063642081" duration="11289000" />
       <workItem from="1722214946593" duration="1054000" />
-      <workItem from="1722216130021" duration="7021000" />
+      <workItem from="1722216130021" duration="13124000" />
+      <workItem from="1722236910951" duration="216000" />
+      <workItem from="1722256080494" duration="3419000" />
+      <workItem from="1722305135652" duration="598000" />
+      <workItem from="1722329743604" duration="542000" />
+      <workItem from="1727090589428" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -460,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722074889996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加Sentinal的支持">
+      <option name="closed" value="true" />
+      <created>1722225370899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722225370900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +460,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="删除无需管理的文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除无需管理的文件" />
+    <MESSAGE value="增加Sentinal的支持" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Sentinal的支持" />
   </component>
 </project>

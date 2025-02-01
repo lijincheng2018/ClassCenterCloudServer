@@ -1,0 +1,16 @@
+server:
+  port: 8084
+
+classcenter:
+  mysql:
+    hostname: localhost
+    port: 3308
+    database: classcenter_classfee
+    username: root
+    password: YOUR_PASSWORD
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+

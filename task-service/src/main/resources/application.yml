@@ -1,0 +1,33 @@
+server:
+  port: 8084
+
+spring:
+  cloud:
+    openfeign:
+      okhttp:
+        enabled: true # 开启OKHttp功能
+
+feign:
+  sentinel:
+    enabled: true # 开启Sentinel功能
+
+classcenter:
+  mysql:
+    hostname: localhost
+    port: 3308
+    database: classcenter_task
+    username: root
+    password: YOUR_PASSWORD
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+
+  tencent:
+    cos:
+      secretId: YOUR_TECENT_CLOUD_SECRETID
+      secretKey: YOUR_TECENT_CLOUD_SECRETKEY
+      region: ap-shanghai
+      bucketName: YOUR_TECENT_CLOUD_COS_BUCKET_NAME
+      url: YOUR_TECENT_CLOUD_COS_URL

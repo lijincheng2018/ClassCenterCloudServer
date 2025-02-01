@@ -1,0 +1,25 @@
+server:
+  port: 8084
+
+spring:
+  cloud:
+    openfeign:
+      okhttp:
+        enabled: true # 开启OKHttp功能
+
+feign:
+  sentinel:
+    enabled: true # 开启Sentinel功能
+
+classcenter:
+  mysql:
+    hostname: localhost
+    port: 3308
+    database: classcenter_document
+    username: root
+    password: YOUR_PASSWORD
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 1

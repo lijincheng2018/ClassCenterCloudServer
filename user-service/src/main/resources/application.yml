@@ -1,0 +1,33 @@
+server:
+  port: 8092
+
+spring:
+  cloud:
+    openfeign:
+      okhttp:
+        enabled: true # 开启OKHttp功能
+
+feign:
+  sentinel:
+    enabled: true # 开启Sentinel功能
+
+classcenter:
+  mysql:
+    hostname: localhost
+    port: 3308
+    database: classcenter_user
+    username: root
+    password: YOUR_PASSWORD
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+
+  qq:
+    appid: QQ_LOGIN_APPID
+    appkey: QQ_LOGIN_APPKEY
+    redirect: QQ_LOGIN_REDIRECT
+
+  sa-token:
+    jwt-secret-key: JWT_SECRET_KEY

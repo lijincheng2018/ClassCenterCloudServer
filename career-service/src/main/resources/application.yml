@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+classcenter:
+  mysql:
+    hostname: localhost
+    port: 3308
+    database: classcenter_career
+    username: root
+    password: YOUR_PASSWORD
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
